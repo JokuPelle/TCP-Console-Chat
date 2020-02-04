@@ -1,5 +1,5 @@
 # TCP Socket Chat Room
-Simple chat room that utilizes TCP socket technology. Made for Distributed Systems course.
+Simple chat room that utilizes TCP socket technology. Made for Distributed Systems course. Much help from youtuber sentdex.
 
 ## Disclaimer
 app.py is just a small test for a GUI and isn't connected to the main program.
