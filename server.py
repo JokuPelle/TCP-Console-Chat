@@ -17,6 +17,7 @@ server_socket.listen()
 
 sockets_list = [server_socket]
 clients = {}
+print("Server started!")
 
 #Used for establishing a connectiona dn recieving messages
 def recieve_message(client_socket):
