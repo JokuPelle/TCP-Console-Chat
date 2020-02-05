@@ -50,7 +50,7 @@ while True:
             message_length = int(message_header.decode('utf-8').strip())
             message = client_socket.recv(message_length).decode('utf-8')
             if message.find("@") == 0:
-                if message.find(my_username[1:]) == 1:
+                if message.find(my_username[1:]+" ") == 1:
                     print(f"{username[1:]}> {message}")
             else:
                 print(f"{username[1:]}> {message}")
