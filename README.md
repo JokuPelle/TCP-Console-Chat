@@ -1,5 +1,5 @@
 # TCP Socket Chat Room
-Simple chat room that utilizes TCP socket technology. Made for Distributed Systems course. Much help from youtuber sentdex.
+Simple chat room that utilizes TCP socket technology. Made for Distributed Systems course.
 
 ## Disclaimer
 app.py is just a small test for a GUI and isn't connected to the main program.
@@ -27,4 +27,4 @@ Once your client has logged into the server, you can disconnect and close the pr
 
 ## Problems
 The client side message input blocks the constant message stream, so the client only sees new messages when they send a new message.
-A GUI could fix this.
+A GUI could fix this. Currently you can quickly refresh by leaving no message (just press enter).
