@@ -19,7 +19,7 @@ sockets_list = [server_socket]
 clients = {}
 print("Server started!")
 
-#Used for establishing a connectiona dn recieving messages
+#Used for establishing a connectiona and recieving messages
 def recieve_message(client_socket):
     try:
         message_header = client_socket.recv(HEADER_LENGHT)
